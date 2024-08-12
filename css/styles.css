@@ -34,6 +34,12 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -157,7 +163,7 @@ button {
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -349,6 +355,18 @@ button {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {

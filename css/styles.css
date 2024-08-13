@@ -289,10 +289,6 @@ img {
 /* #endregion section 2 */
 
 /* #region section 3 */
-.portfolio-container {
-    width: 1128px;
-    height: 1000px;
-}
 
 .portfolio {
     padding: 120px 0;
@@ -380,6 +376,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
     width: 264px;
 }
